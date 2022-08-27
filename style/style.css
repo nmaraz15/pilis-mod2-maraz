@@ -1,0 +1,350 @@
+import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+font-family: 'Montserrat', sans-serif;
+background: #fafdea;
+color: #260729;
+scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: #797446;
+}
+.imagen_circular
+{
+ width: 90px;
+ height: 90px;
+ float: right; 
+ margin: 10px;
+ border-radius:30%;
+ -webkit-border-radius:50%;
+ box-shadow: 0px 0px 7px 7px #ccc9aa;
+ -webkit-box-shadow: 0px 0px 7px 7px #ccc9aa  ;
+ position: fixed;
+  }
+
+ 
+/*navbar*/
+.logo{
+   float: right;
+   width: 120px;
+   
+  
+}
+
+#navbar a {
+  color:#2a2344;
+}
+
+#navbar ul 
+{
+  list-style: none;
+  text-transform: uppercase;
+  float: left;
+}
+#navbar ul li
+{
+  float: left;
+}
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover{
+  background-color: #ccc9aa;
+}
+
+/* Showcase */
+
+.showcase-img {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  height: 100vh;
+}
+
+.showcase-img img {
+  width: 100%;
+} 
+
+.showcase-text {
+  float: left;
+  width: 50%;
+  padding: 20px 20px 20px 40px;
+}
+
+.showcase-text h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 46px;
+}
+
+.showcase-text .title-one {
+  font-size: 29px;
+  font-weight: 300;
+}
+
+.showcase-text .title-two {
+  color: #360b41;
+}
+
+.showcase-text .large {
+  padding-top: 20px;
+}
+/*HOME*/
+#home
+{
+  height: 100vh;
+  
+}
+
+#expo
+{
+  height: 100vh;
+}
+
+/* parte3 */
+header{
+  height: 20vh;
+  
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+  
+}
+
+/* About */
+#about
+{
+ background:  #260729;
+color: #fafdea ;
+height: 100vh;
+}
+.about-text h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 46px;
+}
+.about-title {
+  float: left;
+  width: 45%;
+  padding-top: 340px;
+}
+.about-text .title-one {
+  font-size: 29px;
+  font-weight: 300;
+}
+.about-text .title-two {
+  color:#fafdea;
+  font-size: 20px;
+  float: rigth;
+}
+
+.about-description {
+  float: left;
+  width: 55%;
+}
+
+.about-description .large {
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+}
+.about-img {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  height: 100vh;
+    
+}
+.about-img {
+  float: right;
+    
+}
+.about-text {
+  float: rigth;
+  width: 50%;
+  padding: 20px 20px 20px 40px;
+}
+/* General */
+h2 { 
+  font-size: 50px; 
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #FFF;
+}
+h3 { 
+  font-size: 20px;
+  font-weight: 300;
+   text-transform: uppercase;
+   color: #FFF;
+   text-decoration: none;
+   padding-top: 60px;
+}
+
+p {
+font-size: 1rem;
+margin: 10px 0;
+line-height: 1.7em;
+}
+
+/* Contacto */
+#contact {
+  padding: 70px 0;
+  background:  #260729;
+  color:   #fafdea ;
+  height: 100vh;
+}
+
+.contact-form {
+  float: right;
+  width: 45%;
+  padding: 70px;
+}
+
+.contact-title {
+ 
+  font-weight: 300;
+  font-size: 20px;
+   width: 45%;
+  padding-top: 30px;
+  text-align: left; 
+  text-decoration-color:  #fafdea;
+}
+ h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+}
+form .form-group {
+  margin-bottom: 2rem;
+}
+
+form .form-control {
+  width: 97%;
+  padding: 0.375rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  border: none; 
+
+}
+form .label-text 
+{
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+/* Boton del formulario*/
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 14px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.btn-light {
+  background:#fff;
+  border: 1px solid #260729;
+  color: #260729;
+  width: 100%;
+}
+
+.btn-light:hover {
+  background: #fff;
+  border: 1px solid #ccc9aa;
+  color: #ccc9aa;
+}
+
+/* para la Sección del clima */
+
+#weather {
+  padding: 6rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc9aa;
+}
+
+#weather figcaption {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #260729;
+  font-weight: bold;
+}
+
+#weather .city-temp {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #260729;
+}
+
+#weather .city-icon {
+  margin-top: 2px;
+  width: 100px;
+  height: 100px;
+}
+
+/* footer */
+
+#footer {
+  margin-top: 2em;
+  background-color: #260729;
+  color: #fafdea;
+}
+.sociales-container{
+  display: flex;
+  top: 20px;
+  justify-content: center; 
+}
+.sociales-img {
+  padding-top: 10px;
+ 
+  text-decoration: none;
+  margin-right: 30px;
+  }
+.sociales-tex{
+  
+  text-align: center;
+  padding-top: 20;
+  
+
+}
+.sociales-p{
+  font-size: 11px;
+  font-weight: 600;
+   text-transform: uppercase;
+   color: #FFF;
+   text-decoration: none;
+   padding-top: 60px;
+
+}
+.imagen_whatsapp
+{
+ width:80px;
+ height:80px;
+ float: right; 
+ margin: 10px;
+ border-radius:50%;
+ -webkit-border-radius:50%;
+ box-shadow: 0px 0px 7px 7px #ccc9aa;
+ -webkit-box-shadow: 0px 0px 7px 7px #ccc9aa  ;
+  }
